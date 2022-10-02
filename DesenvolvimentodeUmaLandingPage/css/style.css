@@ -6,3 +6,10 @@
     width: 120px;
     height: 80px;
 }
+
+input, select {
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+

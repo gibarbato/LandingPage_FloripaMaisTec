@@ -12,34 +12,105 @@
 <body>
     <header>
         <header>
-            <img class = 'logo' src="./imgs/logo.jpeg" alt="logo empresa">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html">Início</a>
-                    </li>
-                    <li>
-                        <a href="contato.html">Contato</a>
-                    </li>
-                </ul>
-            </nav>
+            <img class='logo' src="./imgs/logo.jpeg" alt="logo empresa">
         </header>
-    <section>
-        <h1>FORMULÁRIO</h1>
-    </section>
-    <footer>
-        <ul>
-            <li>
-                <a href="#"><img class = 'img-rede-social' src="./imgs/instagran.jpeg" alt ="instagran"></a>
-            </li>
-            <li>
-                <a href="#"><img class = 'img-rede-social' src="./imgs/twiter.jpeg" alt ="twiter"></a>
-            </li>
-            <li>
-                <a href="#"><img class = 'img-rede-social' src="./imgs/facebook.jpeg" alt ="facebook"></a>
-            </li>
-        </ul>
-    </footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Início</a>
+                </li>
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section>
+
+            <form>
+                <fieldset>
+                    <legend>
+                        <h1>FORMULÁRIO</h1>
+                    </legend>
+                    <div>
+                        <label>Nome</label><br>
+                        <input type="text" id="nome" placeholder="Digite o seu nome"><br>
+                    </div>
+                    <div>
+                        <label>Data de Nascimento</label><br>
+                        <input type="text" id="nome" placeholder="Digite o seu nome"><br>
+                    </div>
+                    <div>
+                        <label>Sexo</label><br>
+                        <input type="radio" id="radioButton" value="M">
+                        <label for="rMasc">Masculino</label><br>
+                        <input type="radio" id="radioButton" value="F">
+                        <label for="rFem">Feminino</label><br>
+
+                    </div>
+                    <div>
+                        <label>Endereço</label><br>
+                        <input type="text" id="endereco" placeholder="Digite o seu endereço"><br>
+                    </div>
+                    <div>
+                        <label>Estado</label><br>
+                        <select>
+                            <option value=””>-
+                                Selecione-</option>
+                            <option value=”SC”>Santa Catarina</option>
+                            <option value=”PR”>Parana</ option>
+                            <option value=”RS”>Rio Grande do Sul</ option>
+                        </select><br>
+                    </div>
+                    <div>
+                        <label>Cidade</label><br>
+                        <select>
+                            <option value=””>-
+                                Selecione-</option>
+                            <option value=”Florianópolis”>Florianópolis</option>
+                            <option value=”Curitiba”>Curitiba</ option>
+                            <option value=”PortoAlegre”>Porto Alegre</ option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Celular</label><br>
+                        <input type="text" id="celular" placeholder="(##)#####-####">
+                    </div>
+                    <div>
+                        <label>Email</label><br>
+                        <input type="text" id="email" placeholder="Digite o seu email">
+                    </div>
+                    <div>
+                        <label>Área de Interesse</label><br>
+                        <input type="checkbox" id="area1" name="html" value="HTML">
+                        <label for="chkHtml">HTML</label><br>
+                        <input type="checkbox" id="area1" name="css" value="CSS">
+                        <label for="chkCss">CSS</label><br>
+                        <input type="checkbox" id="area1" name="js" value="JavaScript">
+                        <label for="chkJS">JavaScript</label><br>
+                    </div>
+                    <div>
+                        <label>Mensagem:</label><br>
+                        <textarea cols="30" rows="5"></textarea>
+                    </div>
+                    <input type="submit" value="Envar">
+
+                </fieldset>
+            </form>
+        </section>
+        <footer>
+            <ul>
+                <li>
+                    <a href="#"><img class='img-rede-social' src="./imgs/instagran.jpeg" alt="instagran"></a>
+                </li>
+                <li>
+                    <a href="#"><img class='img-rede-social' src="./imgs/twiter.jpeg" alt="twiter"></a>
+                </li>
+                <li>
+                    <a href="#"><img class='img-rede-social' src="./imgs/facebook.jpeg" alt="facebook"></a>
+                </li>
+            </ul>
+        </footer>
 
 </body>
 
